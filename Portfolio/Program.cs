@@ -1,5 +1,6 @@
 var builder = WebApplication.CreateBuilder(args);
 
+// getting runtime environment
 var environment = builder.Environment.EnvironmentName;
 
 // Add services to the container.
