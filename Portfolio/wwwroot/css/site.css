@@ -16,3 +16,18 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+/*fixed views bar*/
+#views {
+    z-index: 1600;
+    padding: 10px;
+    border-radius: 10px 0px 0 10px;
+    display: inline-flex;
+    position: fixed;
+    top: 80px;
+    right: -10px;
+    background-color: #080808;
+    overflow: hidden;
+    animation: fade-in 1.5s linear;
+}
+
